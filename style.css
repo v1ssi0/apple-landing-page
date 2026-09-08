@@ -1,0 +1,31 @@
+*  {
+    font-family: roboto;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cabecalho-navegação {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(143, 39, 39);
+
+}
+
+.cabecalho-carrosel {
+
+
+}
+.cabecalho-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+.cabecalho-icone{
+    padding: 1rem;
+
+}
