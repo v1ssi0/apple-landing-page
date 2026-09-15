@@ -1,23 +1,24 @@
-*  {
-    font-family: roboto;
-    padding: 0%;
-    margin: 0%;
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.cabecalho-navegação {
+.cabecalho {
+    background: rgb(255, 255, 255);
+    height: 90vh;
+}
+
+.cabecalho-navegacao {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background: rgb(143, 39, 39);
-
+    height: 7.5%;
 }
 
-.cabecalho-carrosel {
-
-
-}
 .cabecalho-link {
     text-decoration: none;
     color: black;
@@ -25,7 +26,80 @@
     padding: 1rem;
 }
 
-.cabecalho-icone{
+.cabecalho-icone {
     padding: 1rem;
+}
 
+.cabecalho-carrossel {
+    background-image: url('images/iphone-18.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92.5%;
+
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-titulo {
+    font-size: 54px;
+    margin-top: 50px;
+}
+.card-subtitulo {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 7px; 
+    margin-bottom: 4px;
+}
+
+.card-conteudo{
+    font-size: 17px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    color: rgb(180, 187, 192);
+}
+
+.card-link{
+    border-radius: 24px;
+    border: 1px  solid white;
+    padding: 10px 18px;
+    text-decoration: none;
+
+}
+
+.card-link-primario{
+    background:  #0076df;
+    border: 1px solid  #0076df;
+    color: aliceblue;
+}
+
+.card-link-secundario{
+    color:  #0076df;
+    border: 1px solid #0076df;
+
+}
+
+
+.card-link-secundario:hover {
+    color: white;
+    background-color: #0076df;
+}
+
+.pricipal{
+        
+        background-size: cover;
+        background-position: center;
+        min-height: 700px;
+    
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+}
+
+.iphone-duo{
+    background-image: url('images/iphone-duo.jpg');
 }
